@@ -18,4 +18,4 @@ Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013), “Efficient estimation
 Le, Q., and Mikolov, T. (2014), “Distributed representations of sentences and documents,” in *International conference on machine learning*, PMLR, pp. 1188–1196.
 
 * keywords: paragraph vector
-* propose a model for paragragh vector with three stages: the unsupervised training to update paragraph vectors and word vectors with training data, the inference stage to derive paragraph vectors for testing data (word vectors keep fixing in this stage), and the last stage is to make label prediction with paragraph vectors and word vectors.
+* summary: propose a model for paragragh vector with three stages: the unsupervised training to update paragraph vectors and word vectors with training data, the inference stage to derive paragraph vectors for testing data (word vectors keep fixing in this stage), and the last stage is to make label prediction with paragraph vectors and word vectors.
