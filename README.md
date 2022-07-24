@@ -19,3 +19,8 @@ Le, Q., and Mikolov, T. (2014), “Distributed representations of sentences and 
 
 * keywords: paragraph vector
 * summary: propose a model for paragragh vector with three stages: the unsupervised training to update paragraph vectors and word vectors with training data, the inference stage to derive paragraph vectors for testing data (word vectors keep fixing in this stage), and the last stage is to make label prediction with paragraph vectors and word vectors.
+
+Ioffe, S., and Szegedy, C. (2015), “Batch normalization: Accelerating deep network training by reducing internal covariate shift,” in *International conference on machine learning*, PMLR, pp. 448–456.
+
+* keywords: internal covariate shift
+* summary: propose a batch normalization to address so-called internal covariate shift caused by saturating nonlinearities. Batch normalization enables training of models with saturating nonlinearties and much higher learning rate, and dramatically accererates the training of deep networks.
