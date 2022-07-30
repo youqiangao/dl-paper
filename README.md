@@ -24,3 +24,13 @@ Ioffe, S., and Szegedy, C. (2015), “Batch normalization: Accelerating deep net
 
 * keywords: internal covariate shift
 * summary: propose a batch normalization to address so-called internal covariate shift caused by saturating nonlinearities. Batch normalization enables training of models with saturating nonlinearties and much higher learning rate, and dramatically accererates the training of deep networks.
+
+Grandvalet, Y., and Bengio, Y. (2006), “Entropy Regularization.”	
+
+* keywords: entropy regularization, semi-supervised learning, unlabeled data
+* summary: assume high conditional entropy for unlabeled data. They propose an entropy regularization to utilize unlabeled data in the training of model. Eqn. (9.5) states the empirical version of the conditional entropy. 
+
+Lee, D.-H. (2013), “Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks,” in *Workshop on challenges in representation learning, ICML*, p. 896.
+
+* keywords: pseudo labels, semi-supervised learning, unlabeled data
+* summary: propose a method to use labeled data and unlabeled data simultaneously. Specifically, geneate pseudo labels for unlabels instances, and the rest is the same as usual supervised learning. It is equivalent to entropy regularization. 
