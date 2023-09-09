@@ -1,36 +1,21 @@
 # dl-paper
 
-Liu, Y. (2007), “Fisher Consistency of Multicategory Support Vector Machines,” in *Proceedings of the Eleventh International Conference on Artificial Intelligence and Statistics*, PMLR, pp. 291–298.
+Liu, Y. (2007). Fisher consistency of multicategory support vector machines. In Artificial intelligence and statistics (pp. 291-298). PMLR.
 
 * keyword: fisher consistency, multicategory hinge loss, multicategory support vector machine
-* summary: discuss four multi-class hinge loss, only loss (b) are always fisher concsistent. Adding a constraint to loss (a), loss (c) and truncating loss (d)  make them fisher consistent. 
+* summary: discuss four multi-class hinge loss, and only loss (b) is always fisher concsistent. Adding a constraint to loss (a), loss (c) and truncating loss (d) ensure their fisher consistency. 
 
-Dorfer, M., Kelz, R., and Widmer, G. (2016), “Deep Linear Discriminant Analysis,” *arXiv:1511.04707 [cs]*.
+Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781.
 
-* keywords: LDA, deep neural network
-* summary: propose a LDA eigenvalue-based objective function and encode x through a deep neural nework f(.) to push the net to generate discriminative hidden representation H.
+* keywords: word embedding, CBOW, skip-gram model, unsupervised learning
+* summary: propose a two language models: continuous Bag-of-Words Model (CBOW) and skip-gram model to derive word embeddings.
 
-Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013), “Efficient estimation of word representations in vector space,” *arXiv preprint arXiv:1301.3781*.
+Le, Q., & Mikolov, T. (2014). Distributed representations of sentences and documents. In International conference on machine learning (pp. 1188-1196). PMLR.
 
-* keywords: word embedding, CBOW, skip-gram model
-* summary: propose a two language models: continuous Bag-of-Words Model (CBOW) and skip-gram model to derive word embeddings. It is different from NNLM in terms of the non-linear hidden layers is removed and future words are used for prediction.
+* keywords: paragraph embedding, unsupervised learning
+* summary: each paragraph is assigned a paragraph vector (paragraph embedding) that is derived in an unsupervised manner, akin to the CBOW and skip-gram models.
 
-Le, Q., and Mikolov, T. (2014), “Distributed representations of sentences and documents,” in *International conference on machine learning*, PMLR, pp. 1188–1196.
+Cheng, W., Hüllermeier, E., & Dembczynski, K. J. (2010). Bayes optimal multilabel classification via probabilistic classifier chains. In Proceedings of the 27th international conference on machine learning (ICML-10) (pp. 279-286).
 
-* keywords: paragraph vector
-* summary: propose a model for paragragh vector with three stages: the unsupervised training to update paragraph vectors and word vectors with training data, the inference stage to derive paragraph vectors for testing data (word vectors keep fixing in this stage), and the last stage is to make label prediction with paragraph vectors and word vectors.
-
-Ioffe, S., and Szegedy, C. (2015), “Batch normalization: Accelerating deep network training by reducing internal covariate shift,” in *International conference on machine learning*, PMLR, pp. 448–456.
-
-* keywords: internal covariate shift
-* summary: propose a batch normalization to address so-called internal covariate shift caused by saturating nonlinearities. Batch normalization enables training of models with saturating nonlinearties and much higher learning rate, and dramatically accererates the training of deep networks.
-
-Grandvalet, Y., and Bengio, Y. (2006), “Entropy Regularization.”	
-
-* keywords: entropy regularization, semi-supervised learning, unlabeled data
-* summary: assume high conditional entropy for unlabeled data. They propose an entropy regularization to utilize unlabeled data in the training of model. Eqn. (9.5) states the empirical version of the conditional entropy. 
-
-Lee, D.-H. (2013), “Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks,” in *Workshop on challenges in representation learning, ICML*, p. 896.
-
-* keywords: pseudo labels, semi-supervised learning, unlabeled data
-* summary: propose a method to use labeled data and unlabeled data simultaneously. Specifically, geneate pseudo labels for unlabels instances, and the rest is the same as usual supervised learning. It is equivalent to entropy regularization. 
+* keywords: multi-label classification, Bayes optimal decisions
+* summary: The authors present a theoretical demonstration that in multi-label classification, the Bayes optimal decisions may not rely on conditional label dependence. Specifically, for Hamming and rank loss, the Bayes optimal decisions solely hinge on the marginal distribution, while for 0-1 loss, the Bayes optimal decisions depend on the joint distribution.
