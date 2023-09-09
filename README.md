@@ -18,4 +18,4 @@ Le, Q., & Mikolov, T. (2014). Distributed representations of sentences and docum
 Cheng, W., Hüllermeier, E., & Dembczynski, K. J. (2010). Bayes optimal multilabel classification via probabilistic classifier chains. In Proceedings of the 27th international conference on machine learning (ICML-10) (pp. 279-286).
 
 * keywords: multi-label classification, Bayes optimal decisions
-* summary: The authors present a theoretical demonstration that in multi-label classification, the Bayes optimal decisions may not rely on conditional label dependence. Specifically, for Hamming and rank loss, the Bayes optimal decisions solely hinge on the marginal distribution, while for 0-1 loss, the Bayes optimal decisions depend on the joint distribution.
+* summary: The authors present a theoretical demonstration that in multi-label classification, the Bayes optimal decisions may not rely on conditional label dependence. Specifically, for Hamming and rank loss, the Bayes optimal decisions solely hinge on the marginal distribution, while for subset 0-1 loss, the Bayes optimal decisions depend on the joint distribution.
