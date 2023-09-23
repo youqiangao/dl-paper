@@ -19,3 +19,7 @@ Cheng, W., Hüllermeier, E., & Dembczynski, K. J. (2010). Bayes optimal multilab
 
 * keywords: multi-label classification, Bayes optimal decisions
 * summary: The authors present a theoretical demonstration that in multi-label classification, the Bayes optimal decisions may not rely on conditional label dependence. Specifically, for Hamming and rank loss, the Bayes optimal decisions solely hinge on the marginal distribution, while for subset 0-1 loss, the Bayes optimal decisions depend on the joint distribution.
+
+Cai, T. T., Li, H., Liu, W., & Xie, J. (2016). Joint estimation of multiple high-dimensional precision matrices. Statistica Sinica, 26(2), 445.
+* keywords: joint estimation, convergence rate
+* summary: Jointly estimating multiple high-dimensional precision matrices leads to faster convergence rate (see Theorem 1).
