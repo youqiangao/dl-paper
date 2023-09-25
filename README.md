@@ -23,3 +23,7 @@ Cheng, W., Hüllermeier, E., & Dembczynski, K. J. (2010). Bayes optimal multilab
 Cai, T. T., Li, H., Liu, W., & Xie, J. (2016). Joint estimation of multiple high-dimensional precision matrices. Statistica Sinica, 26(2), 445.
 * keywords: joint estimation, convergence rate
 * summary: Jointly estimating multiple high-dimensional precision matrices leads to faster convergence rate (see Theorem 1).
+
+Duan, Y., & Wang, K. (2022). Adaptive and robust multi-task learning. arXiv preprint arXiv:2202.05250.
+* keywords: joint learning, multi-task learning (MTL)
+* summary: propose a multi-task learning framework with $l_2$ norm, include vanilla, clustered and low-rank MTL (see Section 4).
