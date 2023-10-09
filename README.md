@@ -31,3 +31,7 @@ Duan, Y., & Wang, K. (2022). Adaptive and robust multi-task learning. arXiv prep
 Ramdas, A., Reddi, S. J., Póczos, B., Singh, A., & Wasserman, L. (2015). On the decreasing power of kernel and distance based nonparametric hypothesis tests in high dimensions. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 29, No. 1).
 * keywords: two-sample test, independent test, high dimension
 * summary: point out a phenomenon that the power of two-sample test or independent test decreases as dimension increases. Notice that the all experiments are under so-called fair alternative. 
+
+Lipton, Z., Wang, Y. X., & Smola, A. (2018). Detecting and correcting for label shift with black box predictors. In International conference on machine learning (pp. 3122-3130). PMLR.
+* keywords: two-sample test, label shift
+* summary: propose a framework for label shift with black box predictors. The most important findings are in Proposition 4: $p(y) = q(y)$ if and only if $p(f(x)) = q(f(x))$, and Proposition 2: consistency of the proposed importance weights.
