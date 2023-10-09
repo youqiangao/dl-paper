@@ -27,3 +27,7 @@ Cai, T. T., Li, H., Liu, W., & Xie, J. (2016). Joint estimation of multiple high
 Duan, Y., & Wang, K. (2022). Adaptive and robust multi-task learning. arXiv preprint arXiv:2202.05250.
 * keywords: joint learning, multi-task learning (MTL)
 * summary: propose a multi-task learning framework with $l_2$ norm, include vanilla, clustered and low-rank MTL (see Section 4).
+
+Ramdas, A., Reddi, S. J., Póczos, B., Singh, A., & Wasserman, L. (2015). On the decreasing power of kernel and distance based nonparametric hypothesis tests in high dimensions. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 29, No. 1).
+* keywords: two-sample test, independent test, high dimension
+* summary: point out a phenomenon that the power of two-sample test or independent test decreases as dimension increases. Notice that the all experiments are under so-called fair alternative. 
