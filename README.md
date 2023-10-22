@@ -35,3 +35,11 @@ Ramdas, A., Reddi, S. J., Póczos, B., Singh, A., & Wasserman, L. (2015). On the
 Lipton, Z., Wang, Y. X., & Smola, A. (2018). Detecting and correcting for label shift with black box predictors. In International conference on machine learning (pp. 3122-3130). PMLR.
 * keywords: two-sample test, label shift
 * summary: propose a framework for label shift with black box predictors. The most important findings are in Proposition 4: $p(y) = q(y)$ if and only if $p(f(x)) = q(f(x))$, and Proposition 2: consistency of the proposed importance weights.
+
+Gretton, A., Smola, A., Huang, J., Schmittfull, M., Borgwardt, K., & Schölkopf, B. (2009). Covariate shift by kernel mean matching. Dataset shift in machine learning, 3(4), 5.
+* keywords: covariate shift
+* summary: propose a method for estimating importance, beta(x) = p(x)/q(x). However, the risk estimate requires the loss function belongs to RKHS, and it lacks the consistency result for beta(x).
+
+Muandet, K., Fukumizu, K., Sriperumbudur, B., & Schölkopf, B. (2017). Kernel mean embedding of distributions: A review and beyond. Foundations and Trends® in Machine Learning, 10(1-2), 1-141.
+* keywords: distribution embedding, conditional distribution embedding
+* summary: Chapter 3 introduces the kernel mean embedding for a distribution, Chapter 4 introduces the embedding for a conditional distribution.
