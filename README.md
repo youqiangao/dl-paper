@@ -38,7 +38,7 @@ Lipton, Z., Wang, Y. X., & Smola, A. (2018). Detecting and correcting for label 
 
 Gretton, A., Smola, A., Huang, J., Schmittfull, M., Borgwardt, K., & Schölkopf, B. (2009). Covariate shift by kernel mean matching. Dataset shift in machine learning, 3(4), 5.
 * keywords: covariate shift
-* summary: propose a method for estimating importance, beta(x) = p(x)/q(x). However, the risk estimate requires the loss function belongs to RKHS, and it lacks the consistency result for beta(x).
+* summary: propose a method for estimating importance, beta(x) = p(x)/q(x), using matching of kernel mean of distribution.
 
 Muandet, K., Fukumizu, K., Sriperumbudur, B., & Schölkopf, B. (2017). Kernel mean embedding of distributions: A review and beyond. Foundations and Trends® in Machine Learning, 10(1-2), 1-141.
 * keywords: distribution embedding, conditional distribution embedding
