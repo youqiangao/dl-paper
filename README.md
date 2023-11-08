@@ -46,4 +46,4 @@ Muandet, K., Fukumizu, K., Sriperumbudur, B., & Schölkopf, B. (2017). Kernel me
 
 Mnih, A., & Salakhutdinov, R. R. (2007). Probabilistic matrix factorization. Advances in neural information processing systems, 20.
 * keywords: probabilistic embedding, matrix factorization, recommender systems.
-* summary: introduce a new framework of probabilistic matrix factorization for recommender systems, and show the importance of adding l2 regularization into objective function (greatest difference compared to SVD-like matrix factorization method).
+* summary: introduce a new framework of probabilistic matrix factorization for recommender systems, and show the importance of adding l2 penalty of embedding into objective function (greatest difference compared tso SVD-like matrix factorization method).
