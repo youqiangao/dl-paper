@@ -42,4 +42,8 @@ Gretton, A., Smola, A., Huang, J., Schmittfull, M., Borgwardt, K., & Schölkopf,
 
 Muandet, K., Fukumizu, K., Sriperumbudur, B., & Schölkopf, B. (2017). Kernel mean embedding of distributions: A review and beyond. Foundations and Trends® in Machine Learning, 10(1-2), 1-141.
 * keywords: distribution embedding, conditional distribution embedding
-* summary: Chapter 3 introduces the kernel mean embedding for a distribution, Chapter 4 introduces the embedding for a conditional distribution.
+* summary: Chapter 3 introduces the kernel mean embedding for a distribution, and presents a theorem about how to transform the "distance" between distributions to the distance between two functions in RKHS. Chapter 4 introduces the embedding for a conditional distribution.
+
+Mnih, A., & Salakhutdinov, R. R. (2007). Probabilistic matrix factorization. Advances in neural information processing systems, 20.
+* keywords: probabilistic embedding, matrix factorization, recommender systems.
+* summary: introduce a new framework of probabilistic matrix factorization for recommender systems, and show the importance of adding l2 regularization into objective function (greatest difference compared to SVD-like matrix factorization method).
