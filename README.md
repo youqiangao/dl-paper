@@ -47,3 +47,15 @@ Muandet, K., Fukumizu, K., Sriperumbudur, B., & Schölkopf, B. (2017). Kernel me
 Mnih, A., & Salakhutdinov, R. R. (2007). Probabilistic matrix factorization. Advances in neural information processing systems, 20.
 * keywords: probabilistic embedding, matrix factorization, recommender systems.
 * summary: introduce a new framework of probabilistic matrix factorization for recommender systems, and show the importance of adding l2 penalty of embedding into objective function (greatest difference compared tso SVD-like matrix factorization method).
+
+Manski, C. F., & Lerman, S. R. (1977). The estimation of choice probabilities from choice based samples. Econometrica: Journal of the Econometric Society, 1977-1988.
+* keywords: importance weighting, weighted maximum likelihood estimation
+* summary: This paper shows that importance weighting can also be applied to MLE framework when there exists covariate shift.
+
+Bickel, S., Brückner, M., & Scheffer, T. (2007). Discriminative learning for differing training and test distributions. In Proceedings of the 24th international conference on Machine learning (pp. 81-88).
+* keywords: covariate shift, logistic regression
+* summary: introduce a new objective function for handling covariate shift, including two components: (1) consider a model seperating traning and testing samples; (2) weighted MLE, trying to maximize MLE on unlabeled testing data based on labeled training data.
+
+Sugiyama, M., Nakajima, S., Kashima, H., Buenau, P., & Kawanabe, M. (2007). Direct importance estimation with model selection and its application to covariate shift adaptation. Advances in neural information processing systems, 20.
+* keywords: covariate shift, KL divergence
+* summary: use KL divergence to minimize testing distribution and weighted training distribution of x. Interestingly, the final solution is quite similar to that in kernel density estimaton. However, the proposed method works much better than KDE.
