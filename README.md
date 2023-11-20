@@ -59,3 +59,7 @@ Bickel, S., Brückner, M., & Scheffer, T. (2007). Discriminative learning for di
 Sugiyama, M., Nakajima, S., Kashima, H., Buenau, P., & Kawanabe, M. (2007). Direct importance estimation with model selection and its application to covariate shift adaptation. Advances in neural information processing systems, 20.
 * keywords: covariate shift, KL divergence
 * summary: use KL divergence to minimize testing distribution and weighted training distribution of x. Interestingly, the final solution is quite similar to that in kernel density estimaton. However, the proposed method works much better than KDE.
+
+Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. In International conference on machine learning (pp. 1321-1330). PMLR.
+* keywords: confidence calibration
+* summary: this paper points out a phenomenon that modern neural networks are poorly calibrated. Experimental results show that temperature scaling in the most effective in confidence calibration.
