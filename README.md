@@ -63,3 +63,7 @@ Sugiyama, M., Nakajima, S., Kashima, H., Buenau, P., & Kawanabe, M. (2007). Dire
 Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. In International conference on machine learning (pp. 1321-1330). PMLR.
 * keywords: confidence calibration
 * summary: this paper points out a phenomenon that modern neural networks are poorly calibrated. Experimental results show that temperature scaling in the most effective in confidence calibration.
+
+Byrd, J., & Lipton, Z. (2019). What is the effect of importance weighting in deep learning?. In International conference on machine learning (pp. 872-881). PMLR.
+* keywords: importance weighting, distribution shift
+* summary: empirically point out that for those models capable of seperating all training samples, the final solution may not influenced by the density of samples.
