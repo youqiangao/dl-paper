@@ -67,3 +67,7 @@ Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of mode
 Byrd, J., & Lipton, Z. (2019). What is the effect of importance weighting in deep learning?. In International conference on machine learning (pp. 872-881). PMLR.
 * keywords: importance weighting, distribution shift
 * summary: empirically point out that for those models capable of seperating all training samples, the final solution may not influenced by the density of samples.
+
+Lipton, Z., Wang, Y. X., & Smola, A. (2018). Detecting and correcting for label shift with black box predictors. In International conference on machine learning (pp. 3122-3130). PMLR.
+* keywords: label shift, conditonal shift, importance weighting
+* use MMD to minimize the distribution of **features** x so as for correcting label shift, also discuss how to correcting conditional shift with the same idea.
